@@ -1,6 +1,7 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 class Topic extends CI_Controller { //java처럼 파일명과 매치
     function index(){ //약속
+        
         echo '
         <!DOCTYPE html>
         <html>
