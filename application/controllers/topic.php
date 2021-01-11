@@ -21,6 +21,7 @@ class Topic extends CI_Controller { //java처럼 파일명과 매치
 
         $this->load->view('header');
         $this->load->view('topic_list',array('topics'=>$topics));
+        $this->load->helper(array('korean'));
         $this->load->view('get',array('topic'=>$topic));
         $this->load->view('footer');
     }
