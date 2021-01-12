@@ -5,3 +5,7 @@
     <?=auto_link($topic->description)?>
 </div>
 </article>
+<div>
+    <a href="/index.php/topic/add">추가</a>
+</div>
+
